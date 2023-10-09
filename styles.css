@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: rgb(250,235,215);
+}
+
+
+
+.img-repeat{
+    height: 8rem;
+    background: bottom / 7% repeat url(images/pattern.jpg);
+}
+.img-container {
+    background: top / 101% no-repeat url("images/pattern.jpg");
+    height: 16rem;
+}
+
+
+
+blockquote{
+    margin: 6rem auto;
+    width: 120rem;
+}
+.quote{
+    display: block;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(139,0,0);
+}
+.author{
+    display: block;
+    margin: 5rem 0 0 80rem;
+    font-size: 2rem;
+}
+
+
+.rotate{
+    transform: rotate(180deg);
+} 
